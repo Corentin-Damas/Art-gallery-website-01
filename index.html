@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Art gallery website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__composition">
+        <div class="header__bg-black"></div>
+        <div class="header__bg-image"></div>
+        <div class="header__bg-white"></div>
+
+        <div class="header__titles">
+          <div class="header__title-left">
+            <h1 class="text-effect">
+              Modern <br />
+              Art Gallery
+            </h1>
+          </div>
+          <div class="header__title-right">
+            <h3 class="u-margin-bottom-m">
+              The arts in the collection of the Modern Art Gallery all started
+              from a spark of inspiration. Will these pieces inspire you? Visit
+              us and find out.
+            </h3>
+            <a
+              class="btn-to-localisation"
+              href="./location.html"
+              target="_blank"
+            >
+              <h4 class="btn-text">Our location</h4>
+              <img
+                src="assets/icon-arrow-right.svg"
+                alt="right arrow"
+                class="btn-right-arrow"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="photo-gallery">
+      <div class="grid-1">
+        <h2 class="u-margin-bottom-s">
+          Your day at <br />
+          the gallery
+        </h2>
+        <h3>
+          Wander through our distinct collections and find new insights about
+          our artists. Dive into the details of their creative process.
+        </h3>
+      </div>
+      <img
+        src="/assets/desktop/image-grid-1.jpg"
+        alt=""
+        class="grid-2 gallery__image"
+      />
+      <img
+        src="/assets/desktop/image-grid-2.jpg"
+        alt=""
+        class="grid-3 gallery__image"
+      />
+      <img
+        src="/assets/desktop/image-grid-3.jpg"
+        alt=""
+        class="grid-4 gallery__image"
+      />
+      <div class="grid-5">
+        <h2>
+          Come &amp; be <br />
+          inspired
+        </h2>
+        <h3>
+          We re excited to welcome you to our gallery and see how our
+          collections influence you.
+        </h3>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h4>
+        Modern <br />
+        Art Gallery
+      </h4>
+      <p>
+        The Modern Art Gallery is free to all visitors and open <br />
+        seven days a week from 8am to 9pm. Find us at 99 <br />
+        King Street, Newport, USA.
+      </p>
+      <div class="social-icons">
+        <svg class="icon">
+          <use xlink:href="/assets/icon-facebook.svg#facebook"></use>
+        </svg>
+        <svg class="icon">
+          <use xlink:href="/assets/icon-instagram.svg#instagram"></use>
+        </svg>
+        <svg class="icon">
+          <use xlink:href="/assets/icon-twitter.svg#twitter"></use>
+        </svg>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -236,7 +236,7 @@ p {
 }
 
 .header__bg-image {
-  background-image: url(assets/desktop/image-hero.jpg);
+  background-image: url(../assets/desktop/image-hero.jpg);
   background-size: cover;
   background-position: center;
   grid-column: 2/3;
@@ -545,7 +545,7 @@ footer {
 }
 
 .map {
-  background-image: url(assets/desktop/image-map.png);
+  background-image: url(../assets/desktop/image-map.png);
   height: 100%;
   width: 100%;
   background-size: cover;
